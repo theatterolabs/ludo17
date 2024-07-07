@@ -16,7 +16,8 @@ body { padding: 0; margin: 0 }
 #unity-logo { 
   width: 82vw; 
   height: 35vh; 
-  background: url('unity-logo-dark.png') no-repeat center 
+  background: url('unity-logo-dark.png') no-repeat center;
+  background-size: contain;
 }
 
 #unity-progress-bar-empty { 
@@ -24,13 +25,16 @@ body { padding: 0; margin: 0 }
   height: 24vh; 
   margin-top: 10px; 
   margin-left: 6.5px; 
-  background: url('progress-bar-empty-dark.png') no-repeat center }
+  background: url('progress-bar-empty-dark.png') no-repeat center;
+  background-size: contain;
+}
 
 #unity-progress-bar-full { 
   width: 0%; 
   height: 24vh; 
   margin-top: 10px; 
-  background: url('progress-bar-full-dark.png') no-repeat center 
+  background: url('progress-bar-full-dark.png') no-repeat center;
+  background-size: contain;
 }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
